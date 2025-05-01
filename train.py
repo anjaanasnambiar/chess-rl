@@ -1,6 +1,6 @@
+from chess_env import ChessEnv
 from stable_baselines3 import PPO
 from stable_baselines3.common.env_checker import check_env
-from chess_env import ChessEnv
 
 env = ChessEnv()
 check_env(env)  
