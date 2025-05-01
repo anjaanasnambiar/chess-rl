@@ -1,0 +1,5 @@
+gymnasium
+python-chess
+stable-baselines3
+torch
+numpy
