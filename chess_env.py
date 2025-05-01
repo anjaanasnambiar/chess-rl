@@ -16,7 +16,7 @@ class ChessEnv(gym.Env):
             self.move_lookup.append("0000")
 
     def reset(self, seed=None, options=None):
-        super().reset(seed=seed)
+        super().reset(seed=seed) 
         self.board.reset()
         self._update_move_lookup()
         return self._get_obs(), {}

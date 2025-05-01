@@ -8,7 +8,7 @@ obs, _ = env.reset()
 done = False
 
 print("Starting a new game: ")
-env.render() 
+env.render()  
 
 while not done:
     action, _ = model.predict(obs)
